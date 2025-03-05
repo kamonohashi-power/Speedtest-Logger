@@ -19,6 +19,12 @@ This script uses `speedtest.exe` to measure internet speed and logs the results 
 2. Download `speedtestLogger.bat` from the release and place it in the same directory as `speedtest.exe`.
 3. Execute `log_speedtest.bat`.
 
+The current server default is SERVER_ID `48463`. SERVER_ID can be changed at will.  
+Check the ID with the following command.
+```cmd
+speedtest --servers
+```
+
 ## Example output
 Test results are logged in `Log/log_speedtest.csv`.
 
@@ -36,4 +42,3 @@ This project is licensed under the MIT License.
 **Disclaimer**
 - This script uses the official Ookla Speedtest tool but is not affiliated with Ookla.
 - The creator is not responsible for any damage caused by using this script.
-
